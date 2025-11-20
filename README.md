@@ -1,4 +1,4 @@
-# README.md for the FreeRTOS_LoraWAN
+# FreeRTOS_LoraWAN
 
 The project is on a zip because it has external dependencies, it cannot be standalone.
 It's in LoRaWan-E5-Node-qian\Projects\Applications\FreeRTOS\FreeRTOS_LoRaWAN
