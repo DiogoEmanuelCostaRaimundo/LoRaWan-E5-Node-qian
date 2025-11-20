@@ -1,6 +1,6 @@
 # FreeRTOS_LoraWAN
 
-The project is on a zip because it has external dependencies, it cannot be standalone.
+The project is on a zip because it has external dependencies, it cannot be standalone.   
 It's in LoRaWan-E5-Node-qian\Projects\Applications\FreeRTOS\FreeRTOS_LoRaWAN
 
 This is the project from the seeed studio github.  
