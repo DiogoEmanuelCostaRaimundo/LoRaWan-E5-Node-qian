@@ -25,7 +25,7 @@ The rest of the macros were left has default.
 See the **Things_Stack_Dashboard.md** file from the Wio-E5-mini-LoRa-Setup repository if you haven't yet registered an end device 
 and application. 
 In this case DevEUI = { 0x00, 0x80, 0xE1, 0x15, 0x00, 0x17, 0xC7, 0x22 }, JoinEUI = { 0x01, 0x01, 0x01, 0x01, 0x01, 0x01, 0x02, 0x02 },
-AppKey = 2B,7E,15,16,28,AE,D2,A6,AB,F7,15,88,09,CF,4F,3C.
+AppKey = is the same as in the **Things_Stack_Dashboard.md**.
 
 3. In main.c the led toggling in the StartLedTask() was commented out to allow for downlink testing using the RED led.
 
