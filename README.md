@@ -23,7 +23,7 @@ The reason is because there is already and end device and application with the d
 The rest of the macros were left has default.   
 
 See the **Things_Stack_Dashboard.md** file from the Wio-E5-mini-LoRa-Setup repository if you haven't yet registered an end device 
-and application. 
+and application.    
 In this case DevEUI = { 0x00, 0x80, 0xE1, 0x15, 0x00, 0x17, 0xC7, 0x22 }, JoinEUI = { 0x01, 0x01, 0x01, 0x01, 0x01, 0x01, 0x02, 0x02 },
 AppKey = is the same as in the **Things_Stack_Dashboard.md**.
 
