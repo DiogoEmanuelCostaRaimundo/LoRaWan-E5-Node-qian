@@ -1,6 +1,6 @@
 # README.md for the FreeRTOS_LoraWAN
 
-This is the project from the seeed studio github.
+This is the project from the seeed studio github.  
 Note: **You cannot migrate this project to a new version of the CubeMX, because it will delete parts of the code.**
 Plus they didn't really used the CubeMX to generate the project.
 
