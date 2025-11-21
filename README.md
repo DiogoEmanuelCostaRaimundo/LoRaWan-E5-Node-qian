@@ -33,3 +33,11 @@ AppKey = is the same as in the **Things_Stack_Dashboard.md**.
 
 The only changes are in the SendTxData() and OnRxData() functions. Both have comments that explain them. They are the same
 as in the ST example. So the transmission is by default done by a timer.
+
+
+For the transmission to be made by button(BOOT), *static TxEventType_t EventType = TX_ON_EVENT;* on line 157. Then pin will be intialized. See HAL_GPIO_EXTI_Callback(). 
+
+
+
+
+
