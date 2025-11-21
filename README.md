@@ -36,7 +36,7 @@ as in the ST example. So the transmission is by default done by a timer.
 
 
 For the transmission to be made by button(BOOT), *static TxEventType_t EventType = TX_ON_EVENT;* on line 157.   
-Then PB13 pin will be intialized, see HAL_GPIO_EXTI_Callback(). 
+Then PB13 pin will be intialized, also see HAL_GPIO_EXTI_Callback(). 
 
 
 
