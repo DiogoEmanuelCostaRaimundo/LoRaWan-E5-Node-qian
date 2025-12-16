@@ -1,8 +1,8 @@
 # FreeRTOS_LoraWAN
 
 The project is on a zip because it has external dependencies, it cannot be standalone.   
-It's in LoRaWan-E5-Node-main\Projects\Applications\FreeRTOS\FreeRTOS_LoRaWAN.
-Ignore LoRaWan-E5-Node-quain
+It's in LoRaWan-E5-Node-main\Projects\Applications\FreeRTOS\FreeRTOS_LoRaWAN.  
+Ignore LoRaWan-E5-Node-qian
 
 This is the project from the seeed studio github.  
 Note: **You cannot migrate this project to a new version of the CubeMX, because it will delete parts of the code.**
