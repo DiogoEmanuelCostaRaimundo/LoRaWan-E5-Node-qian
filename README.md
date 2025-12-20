@@ -10,15 +10,7 @@ Plus they didn't really used the CubeMX to generate the project.
 
 ## Changes
 
-1. For the project to compile sucessfully, in main.h the *hlptim1* declaration had the **extern** keyword added.
-
-```c
-/* USER CODE BEGIN Private defines */
-extern LPTIM_HandleTypeDef hlptim1;
-
-/* USER CODE END Private defines */
-```
-2. In LoraWAN/App/se-identity.h the LORAWAN_JOIN_EUI macro was changed from { 0x01, 0x01, 0x01, 0x01, 0x01, 0x01, 0x01, 0x01 } 
+1. In LoraWAN/App/se-identity.h the LORAWAN_JOIN_EUI macro was changed from { 0x01, 0x01, 0x01, 0x01, 0x01, 0x01, 0x01, 0x01 } 
 to { 0x01, 0x01, 0x01, 0x01, 0x01, 0x01, 0x02, 0x02 }.    
 The reason is because there is already and end device and application with the default keys in Things Stack.   
 The rest of the macros were left has default.   
@@ -28,7 +20,7 @@ and application.
 In this case DevEUI = { 0x00, 0x80, 0xE1, 0x15, 0x00, 0x17, 0xC7, 0x22 }, JoinEUI = { 0x01, 0x01, 0x01, 0x01, 0x01, 0x01, 0x02, 0x02 },
 AppKey = is the same as in the **Things_Stack_Dashboard.md**.
 
-3. In main.c the led toggling in the StartLedTask() was commented out to allow for downlink testing using the RED led.
+2. In main.c the led toggling in the StartLedTask() was commented out to allow for downlink testing using the RED led.
 
 ## In lora_app.c
 
